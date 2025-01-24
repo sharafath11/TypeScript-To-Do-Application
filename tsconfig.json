@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "ES6",                      // Transpile to ES6 JavaScript
+    "module": "commonjs",                  // Use CommonJS for modules
+    "outDir": "./dist",                    // Output compiled JS to the dist folder
+    "rootDir": "./src",                    // Source TypeScript code is in the src folder
+    "esModuleInterop": true,               // Allow importing of CommonJS modules in TypeScript
+    "strict": true,                        // Enable strict type-checking options
+    "skipLibCheck": true,                  // Skip checking of declaration files
+    "forceConsistentCasingInFileNames": true // Ensure consistent casing in file names
+  },
+  "include": ["src/**/*.ts"],               // Include all TS files in the src directory
+  "exclude": ["node_modules"]               // Exclude node_modules
+}
